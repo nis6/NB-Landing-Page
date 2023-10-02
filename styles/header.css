@@ -1,0 +1,47 @@
+/* styling the heading */
+header {
+  height: 400px;
+  background-color: #d7442e;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 8rem;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header p {
+  margin: 20px 0;
+}
+
+.header-card {
+  position: relative;
+  top: 60px;
+  height: 350px;
+  width: 600px;
+  padding: 20px;
+  z-index: 100;
+}
+
+.spanned {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -50px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}

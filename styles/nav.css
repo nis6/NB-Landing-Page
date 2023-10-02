@@ -1,0 +1,30 @@
+/* styling the nav */
+nav {
+  background-color: #d7442e;
+  color: #fff;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 8rem;
+}
+
+/* styling the a tags */
+nav ul {
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+nav a:hover {
+  border-bottom: 2px #fff solid;
+}
+
+nav .flex {
+  justify-content: space-between;
+}
+/* end of nav */
