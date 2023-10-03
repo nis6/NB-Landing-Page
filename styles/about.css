@@ -28,6 +28,7 @@
 
 .second {
   padding: 1rem 4rem;
+  text-align: start;
   display: flex;
   @media (max-width: 800px) {
     flex-direction: column;
