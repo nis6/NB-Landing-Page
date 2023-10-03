@@ -1,0 +1,36 @@
+footer {
+  background-color: #4a5f6b;
+  color: #fff;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer li a {
+  color: white;
+}
+
+footer .social a {
+  margin: 0 10px;
+  color: white;
+}
+
+.fa-envelope:hover {
+  color: #000000;
+}
+
+.fa-facebook:hover {
+  color: #1773ea;
+}
+
+.fa-instagram:hover {
+  color: #b32e87;
+}
+
+.fa-twitter:hover {
+  color: #1c9cea;
+}
+
+.footerlink:hover {
+  color: #5cb85c;
+}
