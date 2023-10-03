@@ -4,6 +4,10 @@
   align-items: center;
   margin: 1.5rem 0;
   padding: 1.5rem 0;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    gap: 3rem;
+  }
 }
 /* contact */
 input[type="text"],

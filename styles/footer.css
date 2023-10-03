@@ -4,6 +4,10 @@ footer {
   padding: 4rem 1rem;
   display: flex;
   justify-content: space-around;
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
 }
 
 footer li a {
