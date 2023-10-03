@@ -6,7 +6,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 8rem;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    height: 170px;
+  }
 }
 
 /* styling the a tags */

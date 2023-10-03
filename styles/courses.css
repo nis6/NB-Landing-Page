@@ -1,0 +1,30 @@
+#courses {
+  background-color: #4a5f6b;
+  color: #fff;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.card {
+  width: 400px;
+}
+
+.card h3 {
+  text-align: start;
+  font-weight: bolder;
+}
+
+.card img {
+  height: 300px;
+}
+
+.card-details {
+  padding: 0 1rem;
+}

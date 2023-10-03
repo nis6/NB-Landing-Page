@@ -3,16 +3,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 8rem;
   padding-top: 100px;
   text-align: center;
 }
 
 .schools {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 3rem;
+  padding: 2rem;
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+  }
+}
+
+.second img {
+  width: 60%;
+  @media (max-width: 800px) {
+    width: 90%;
+  }
+}
+
+.second {
+  padding: 1rem 4rem;
+  display: flex;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 }
